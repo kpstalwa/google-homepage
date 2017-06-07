@@ -1,0 +1,27 @@
+.header img{
+	display: block;
+    margin: 0 auto;
+    height:92px;
+    width:272px;
+    margin-top: 89px;
+    padding-top:109px;
+}
+.search {
+	display:block;
+	margin: auto;
+	padding-top:10px;
+	padding-bottom: 2px;
+	padding-left: 500px;
+	width: 632px;
+	height: 44px;
+}
+#country{
+	position: absolute;
+	left:475px;
+	top: 253px;
+   color:#4285F4;
+   font:16px roboto-regular, arial, sans-serif;
+   text-align:center;
+   padding-left:250px;
+   padding-top:0;
+}
