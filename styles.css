@@ -12,15 +12,15 @@
 	display:flex;  /*centering with a flexbox*/
 	justify-content: center;
 	align-items: center;
-	min-width: 700px; /*prevent resizing issues when zooming in*/
-	min-height:50px;
+	min-width: 500px; /*prevent resizing issues when zooming in*/
+	min-height:35px;
 }
 .search form input{
 	font: 20px arial,sans-serif;
 	position:relative;
 	bottom:40px;
-	width:632px;
-	height:44px;
+	width:503px;
+	height:38px;
 }
 .search form input:hover{
 	border-color:darkgray;
