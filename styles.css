@@ -1,27 +1,96 @@
+
 .header img{
+	clear:right;
 	display: block;
-    margin: 0 auto;
-    height:92px;
-    width:272px;
-    margin-top: 89px;
-    padding-top:109px;
+	margin: auto;
+	height:92px;
+	width:272px;
+	margin-top: 89px;
+	padding-top:109px;
 }
 .search {
-	display:block;
-	margin: auto;
-	padding-top:10px;
-	padding-bottom: 2px;
-	padding-left: 500px;
-	width: 632px;
-	height: 44px;
+	position:relative;
+	width:632px;
+	height:44px;
+	text-align: center;
+	left:320px;
+	bottom:40px;
 }
 #country{
-	position: absolute;
-	left:475px;
-	top: 253px;
-   color:#4285F4;
-   font:16px roboto-regular, arial, sans-serif;
-   text-align:center;
-   padding-left:250px;
-   padding-top:0;
+	clear:right;
+	position:relative;
+	color:#4285F4;
+	font:16px roboto-regular, arial, sans-serif;
+	text-align:center;
+	left:108px;
+	bottom:30px;
 }
+
+.header .banner ul li img{
+	position:relative;
+	bottom:3px;
+	width:25px;
+	height:25px;
+	margin:0;
+	padding:0;
+}
+.header .banner ul{
+	float:right;
+	list-style-type: none;
+	padding:0;
+	margin:0;
+	padding-left:30px;
+	padding-right:30px;
+}
+li{
+	font-size: 15px;
+	float:left;
+}
+li a{
+	color:gray;
+	display: block;
+	text-decoration: none;
+	padding-top:10px;
+	padding-right:5px;
+	padding-left:5px;
+}
+li a:hover{
+	text-decoration:underline;
+}
+
+.buttons ul{
+  display:flex;  /*centering with a flexbox*/
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.buttons ul li{
+	padding:8px;
+	position:relative;
+	bottom:80px;
+}
+.buttons ul li button {
+	width:92px;
+	height:34px;
+	font-family:arial, sans-serif;
+	font-size:13px;
+	font-weight: bold;
+	background-color: #F2F2F2;
+	color:rgb(117,117,117);
+}
+.buttons ul li button:hover{
+	border-color: black;
+	color:black;
+}
+p{
+	font-family:arial, sans-serif;
+	font-size:13px;
+	position:relative;
+	bottom:75px;
+	left:20px;
+	text-align: center;
+}
+
+
+
+
