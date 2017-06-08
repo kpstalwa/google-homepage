@@ -58,7 +58,7 @@
 	float:left;
 }
 .header .banner ul li a{
-	color:gray;
+	color:black;
 	display: block;
 	text-decoration: none;
 	padding-top:10px;
@@ -88,11 +88,13 @@
 	font-weight: bold;
 	background-color: #F2F2F2;
 	color:rgb(117,117,117);
+	border-width: 0px;
 }
 .buttons ul li button:hover{
 	border-color: black;
-	border-width: 2px;
+	border-width: 0.1px;
 	color:black;
+	border-color:gray;
 }
 p{
 	font-family:arial, sans-serif;
@@ -115,7 +117,12 @@ p{
 	border-width: 0px;
 	border-radius: 2px;
 }
-.bottombar {
+.bottombar{
+	display:block;
+	position:absolute;
+	bottom:0px;
+	min-width:1270px;
+    min-height:40px;
 	background-color:#F2F2F2;
 }
 .bottombar ul{
@@ -123,12 +130,23 @@ p{
 	padding:0;
 	margin:0;
 }
-.bottombar ul .left{ 
-	padding:10px;
-	float: left;
+.bottombar #left{
+	float:left;
 }
-.bottombar ul .right{ 
-	padding:10px;
-	float: right;
+.bottombar #right{
+	float:right;
 }
+.bottombar #left li, .bottombar #right li {
+	display: inline;
+	padding:3px;
+}
+.bottombar #left li a, .bottombar #right li a{
+	font:13px arial,sans-serif;
+	text-decoration: none;
+	color:black;
+}
+.bottombar #left li a:hover, .bottombar #right li a:hover{
+	text-decoration: underline;
+}
+
 
