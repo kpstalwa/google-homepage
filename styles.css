@@ -52,11 +52,12 @@
 	padding-left:30px;
 	padding-right:30px;
 }
-li{
+.header .banner ul li{
+	list-style-type: none;
 	font-size: 15px;
 	float:left;
 }
-li a{
+.header .banner ul li a{
 	color:gray;
 	display: block;
 	text-decoration: none;
@@ -64,7 +65,7 @@ li a{
 	padding-right:5px;
 	padding-left:5px;
 }
-li a:hover{
+.header .banner ul li a:hover{
 	text-decoration:underline;
 }
 
@@ -104,16 +105,30 @@ p{
 .header .banner ul li button{
 	font-size:8px
 	width:43px;
-    height:28px;
+	height:28px;
 	position: relative;
 	top:5px;
 	padding-left:5px;
 	background-color:#4285F4;
-    color:white;
-    font-weight: bold;
-    border-width: 0px;
-    border-radius: 2px;
+	color:white;
+	font-weight: bold;
+	border-width: 0px;
+	border-radius: 2px;
 }
-
-
+.bottombar {
+	background-color:#F2F2F2;
+}
+.bottombar ul{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+.bottombar ul .left{ 
+	padding:10px;
+	float: left;
+}
+.bottombar ul .right{ 
+	padding:10px;
+	float: right;
+}
 
