@@ -1,1 +1,1 @@
-This is a replication of google's home page.
+This is a replication of Google's home page.
